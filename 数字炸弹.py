@@ -9,7 +9,7 @@ for w in range(114514):
     for n in range(114514):
         print(q,"到",p)
         i = int(input())
-        if i>q and i<p:
+        if i>=q and i<=p:
             if i == boow:
                 print("哎！别碰那个炸弹！我可不爆炸他不会爆炸！")
                 print("3秒后进入下一局")
